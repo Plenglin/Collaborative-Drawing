@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Collaborative Drawing</title>
+
+	<link rel="stylesheet" type="text/css" href="styles/drawing.css">
+
+	<script type="text/javascript" src="extern/angular/angular.min.js"></script>
+	<script type="text/javascript" src="extern/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="extern/paper/dist/paper-full.min.js"></script>
+	<script type="text/javascript" src="extern/socket.io-client/socket.io.js"></script>
+
+	<script type="text/javascript">
+
+		function addPointToPath(point, path, socket, color) {
+			path.add(point);
+			socket.emit('newPoint', {point: point, color: color});
+		}
+
+		function drawSerializedPath(serPath) {
+    		var drawnPath = new paper.Path(serPath.segments);
+    		drawnPath.strokeColor = serPath.strokeColor;
+    		drawnPath.strokeWidth = serPath.strokeWidth;
+		}
+
+		var toolColors = {};
+
+		window.onload = function() {
+
+			// Initialize canvas
+		    var canvas = document.getElementById('drawingSurface');
+		    paper.setup(canvas);
+
+		    // Socket
+		    var socket = io();
+		    var assignedColor;
+
+		    // On first connect
+		    socket.on('welcome', function(data) {
+		    	console.log('received color ' + data.color);
+		    	assignedColor = data.color; // You get a color
+
+		    	console.log('drawing ' + data.history.length + ' paths');
+		    	for (index in data.history) { // You also get old paths
+		    		drawSerializedPath(data.history[index][1]);
+		    	}
+		    });
+
+		    socket.on('pathCreated', function(serPath) {
+		    	console.log('received path made by peer', serPath);
+		    	drawSerializedPath(serPath[1]);
+		    });
+
+		    // Tool
+		    var toolPath;
+		    var tool = new paper.Tool();
+
+		    tool.distanceThreshold = 10;
+
+		    tool.onMouseDown = function(event) {
+		        toolPath = new paper.Path();
+		        addPointToPath(event.point, toolPath, socket, assignedColor);
+		        toolPath.strokeColor = assignedColor;
+		        toolPath.strokeWidth = 5;
+		    };
+
+		    tool.onMouseDrag = function(event) {
+		        addPointToPath(event.point, toolPath, socket, assignedColor);
+		    }
+
+		    tool.onMouseUp = function(event) {
+		    	socket.emit('pathFinished', toolPath);
+		    }
+
+		};
+
+	</script>
+
+</head>
+
+<body>
+
+	<canvas id="drawingSurface" resize></canvas>
+
+</body>
+
+</html>

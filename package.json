@@ -1,0 +1,9 @@
+{
+  "name": "CollabDrawing",
+  "version": "1.0.0",
+  "dependencies": {
+    "body-parser": "latest",
+    "express": "latest",
+    "socket.io": "latest"
+  }
+}

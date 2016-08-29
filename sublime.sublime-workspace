@@ -1,0 +1,690 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"ser",
+				"serialport-js"
+			],
+			[
+				"connec",
+				"connectHandler"
+			],
+			[
+				"block",
+				"blocksPerPlacement"
+			],
+			[
+				"cro",
+				"cropStickSlot"
+			],
+			[
+				"bone",
+				"bonemealSlot"
+			],
+			[
+				"SME",
+				"SMELTERY_B"
+			],
+			[
+				"SM",
+				"SMELTERY_A"
+			],
+			[
+				"item",
+				"itemName"
+			],
+			[
+				"mat",
+				"matchItem"
+			],
+			[
+				"C",
+				"CRAFT_OTHER"
+			],
+			[
+				"inv",
+				"inventory"
+			],
+			[
+				"SMEL",
+				"SMELTERY_A"
+			],
+			[
+				"next",
+				"nextBSlot"
+			],
+			[
+				"lower",
+				"lowercaseName"
+			],
+			[
+				"s",
+				"SMELTERY_A_SLOTS"
+			],
+			[
+				"INP",
+				"INPUT_SLOTS"
+			],
+			[
+				"IN",
+				"INPUT_SLOTS"
+			],
+			[
+				"OTH",
+				"OTHER_SLOTS"
+			],
+			[
+				"S",
+				"SMELTERY_B_SLOTS"
+			],
+			[
+				"nex",
+				"nextBSlot"
+			],
+			[
+				"SMELTER",
+				"SMELTERY_A"
+			],
+			[
+				"EpicN",
+				"EpicNocheatSurvival"
+			],
+			[
+				"EpicNocheatSurvival_",
+				"EpicNocheatSurvival_nether"
+			],
+			[
+				"essentials_",
+				"essentials_default"
+			],
+			[
+				"pr",
+				"prototype"
+			],
+			[
+				"Neu",
+				"NeuralLayer"
+			],
+			[
+				"hid",
+				"hiddenLayers"
+			],
+			[
+				"hi",
+				"hiddenLayers"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"fo",
+				"for	for (…) {…}"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.js",
+			"settings":
+			{
+				"buffer_size": 285,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "{\n    \"directory\": \"scripts\"\n}",
+			"file": ".bowerrc",
+			"file_size": 32,
+			"file_write_time": 131169213390139030,
+			"settings":
+			{
+				"buffer_size": 30,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "static/index.html",
+			"settings":
+			{
+				"buffer_size": 515,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "",
+			"file": "scripts/drawingapp.js",
+			"file_size": 0,
+			"file_write_time": 131169215298110690,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "instal",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/M/Maxim/Programming/CollabDrawing"
+	],
+	"file_history":
+	[
+		"/M/Maxim/Programming/CollabDrawing/scripts/lib/socket.io/examples/chat/public/index.html",
+		"/M/Maxim/Programming/CollabDrawing/bower.json",
+		"/M/Maxim/Programming/CollabDrawing/scripts/lib/socket.io/.travis.yml",
+		"/M/Maxim/Programming/CollabDrawing/terminal.glue",
+		"/M/Maxim/Programming/CollabDrawing/scripts/lib/socket.io/lib/index.js",
+		"/M/Maxim/Programming/CollabDrawing/scripts/lib/socket.io/lib/client.js",
+		"/C/Users/Maxim/AppData/Roaming/Sublime Text 3/Packages/Glue/Glue.sublime-settings",
+		"/C/Users/Maxim/AppData/Roaming/Sublime Text 3/Packages/User/Glue.sublime-settings",
+		"/M/Maxim/Programming/CollabDrawing/main.js",
+		"/M/Maxim/Programming/CollabDrawing/.bowerrc",
+		"/M/Maxim/Programming/CollabDrawing/package.json",
+		"/M/Maxim/Programming/MEANSocialNetwork/package.json",
+		"/M/Maxim/Desktop/paper/examples/css/style.css",
+		"/M/Maxim/Desktop/paper/examples/Scripts/Arcs.html",
+		"/M/Maxim/Desktop/paper/papertest.html",
+		"/M/Maxim/Desktop/paper/paper-core.js",
+		"/M/Maxim/Desktop/paper/paper-core.min.js",
+		"/M/Maxim/Desktop/paper/paper-full.js",
+		"/M/Maxim/Desktop/paper/paper-full.min.js",
+		"/M/Maxim/Desktop/papertest.html",
+		"/M/Maxim/Desktop/dist/docs/index.html",
+		"/M/Maxim/Programming/MEANSocialNetwork/html/index.html",
+		"/M/Maxim/Programming/MEANSocialNetwork/.bowerrc",
+		"/M/Maxim/Programming/MEANSocialNetwork/bower.json",
+		"/M/Maxim/Google Drive/shitpost.txt",
+		"/M/Maxim/Programming/MEANSocialNetwork/main.js",
+		"/M/Maxim/Programming/MEANSocialNetwork/lib/jquery/dist/jquery.min.js",
+		"/M/Maxim/Programming/MEANSocialNetwork/lib/jquery/dist/jquery.js",
+		"/P/GnuWin32/bin/patch.exe.manifest",
+		"/P/mongodb/mongodb.cfg",
+		"/M/Maxim/Desktop/events.js",
+		"/M/Maxim/Desktop/serialport.js",
+		"/M/Maxim/Desktop/main.js",
+		"/M/Maxim/Desktop/asdf/SocialNetwork/package.json",
+		"/M/Maxim/Desktop/asdf/SocialNetwork/README.MD",
+		"/M/Maxim/Desktop/asdf/SocialNetwork/app.js",
+		"/M/Maxim/Desktop/asdf/SocialNetwork/gulpfile.js",
+		"/M/Maxim/Desktop/asdf/SocialNetwork/mean.json",
+		"/P/mongodb/data/mongodb.cfg",
+		"/P/data/mongodb.cfg",
+		"/P/Program Files/MongoDB/Server/3.2/bin/mongod.conf",
+		"/P/Program Files/MongoDB/Server/3.2/bin/mongod.cfg",
+		"/M/Maxim/Desktop/TimerTest.java",
+		"/M/Maxim/Desktop/Internet_LED_Control/static/jquery-3.1.0.js",
+		"/M/Maxim/Desktop/fsevent.js",
+		"/M/Maxim/Desktop/node_modules/type-is/index.js",
+		"/D/people/Name.java",
+		"/D/people/Maxim.java",
+		"/D/people/Wayne.java",
+		"/C/AdwCleaner/AdwCleaner[C0].txt",
+		"/P/Program Files (x86)/Arduino/libraries/MPU6050/MPU6050.h",
+		"/M/Maxim/Programming/minecraft_computers/opencomputers/oresort.lua",
+		"/P/Fraps/fraps64.dat",
+		"/P/Fraps/changes.txt",
+		"/C/ProgramData/AppmatdloH/Config.xml",
+		"/M/Maxim/Programming/minecraft_computers/opencomputers/reactor.lua",
+		"/M/Maxim/Programming/minecraft_computers/computercraft/reactor.lua",
+		"/M/Maxim/Desktop/words.txt",
+		"/M/Maxim/Programming/minecraft_computers/opencomputers/puredaisy.lua",
+		"/M/Maxim/Programming/minecraft_computers/opencomputers/islandexp.lua",
+		"/M/Maxim/Downloads/MPU6050/MPU6050.h",
+		"/M/Maxim/Programming/minecraft_computers/opencomputers/agricraft.lua",
+		"/M/Maxim/Google Drive/config-custom.txt",
+		"/M/Maxim/Programming/minecraft_computers/opencomputers/widebridge.lua",
+		"/M/Maxim/Programming/minecraft_computers/opencomputers/oresort2.lua",
+		"/M/Maxim/Programming/minecraft_computers/opencomputers/geoholo.lua",
+		"/C/Users/Maxim/.IIIP/15.04/output_log.txt",
+		"/C/SKCraft/instances/Ivan 1.7/minecraft/saves/Robot Revolution/opencomputers/2c8893dd-a2fb-4410-88d6-e51804844e2d/home/oresort.lua",
+		"/C/SKCraft/instances/Ivan 1.7/minecraft/saves/Robot Revolution/opencomputers/19f7a6e4-3c2c-4954-8161-c8c9b8a4c670/home/island",
+		"/M/Maxim/Documents/SKCraft Launcher/portable.txt",
+		"/C/SKCraft/instances/Ivan 1.7/minecraft/config/InvTweaks.cfg",
+		"/C/SKCraft/instances/Ivan 1.7/minecraft/config/InvTweaksRules.txt",
+		"/C/SKCraft/instances/Ivan 1.7/minecraft/config/InvTweaksTree.txt",
+		"/M/Maxim/Google Drive/routerpass.txt",
+		"/C/Users/Maxim/AppData/Local/Temp/fz3temp-1/config 2.yml",
+		"/M/Maxim/Downloads/mcedit2-win64-2.0.0alpha-1050/MCEdit 2 Files/schematics/debug.log",
+		"/C/Users/Maxim/AppData/Local/Temp/fz3temp-1/config.yml",
+		"/G/Games/Steam/steamapps/common/Kerbal Space Program/readme.txt",
+		"/C/Users/Maxim/AppData/Local/Temp/7zO0471E5C7/README.md",
+		"/G/Games/Steam/steamapps/common/Kerbal Space Program/GameData/ModuleManager_README.md",
+		"/M/Maxim/Downloads/mcedit2-win64-2.0.0alpha-1050/MCEdit 2 Files/schematics/config.yml",
+		"/M/Maxim/Downloads/config.yml",
+		"/M/Maxim/Downloads/worlds.yml",
+		"/M/Maxim/Desktop/360BattleShip-master/src/battleship/Infrastructure/BattleShipPlacement.java",
+		"/M/Maxim/Desktop/360BattleShip-master/src/battleship/Infrastructure/CommMsg.java",
+		"/M/Maxim/Desktop/360BattleShip-master/src/battleship/Infrastructure/NetworkMedium.java",
+		"/C/Users/Maxim/AppData/Local/Temp/fz3temp-1/worlds.yml",
+		"/M/Maxim/Desktop/360BattleShip-master/src/battleship/GUI/MainWindow.java",
+		"/G/Games/Steam/steamapps/common/Kerbal Space Program/saves/Goo Corporation Incorporated/zKACBACKUP20160528002227-persistent.sfs",
+		"/C/Users/Maxim/AppData/Local/Temp/7zOC16F0002/PERLSTONE-v1.1.txt",
+		"/M/Maxim/Downloads/shop.yml",
+		"/M/Maxim/Downloads/shops.yml",
+		"/M/Maxim/Downloads/groups.yml",
+		"/M/Maxim/Downloads/globalgroups.yml",
+		"/M/Maxim/Downloads/data.yml",
+		"/M/Maxim/Programming/Spigot/TestingServer/1.8/plugins/EnchantmentAPI/config.yml",
+		"/M/Maxim/Programming/Spigot/BuildTools/1.8/Spigot/Spigot-API/src/main/javadoc/org/bukkit/command/package-info.java",
+		"/M/Maxim/Programming/Spigot/AegisPvP-Plugins/plugin.yml",
+		"/M/Maxim/Programming/Spigot/AegisPvP-Plugins/.gitignore",
+		"/M/Maxim/Programming/Spigot/BuildTools/1.8/Spigot/Spigot-API/src/main/javadoc/org/bukkit/block/package-info.java",
+		"/M/Maxim/Programming/Spigot/BukkitTest/1.8/eula.txt",
+		"/M/MinecraftServer/plugins/WorldGuard/config.yml",
+		"/G/Games/Steam/steamapps/common/Kerbal Space Program/saves/Goo Corporation Incorporated/quicksave.sfs",
+		"/M/MinecraftServer/plugins/PermissionsEx/permissions.yml",
+		"/M/Maxim/Desktop/Server-Bentley/help.yml",
+		"/M/Maxim/Desktop/Server-Bentley/plugins/PermissionsEx/permissions.yml",
+		"/M/Maxim/Desktop/Server-Bentley/bukkit.yml",
+		"/M/Maxim/Desktop/Server-Bentley/ops.json",
+		"/M/Maxim/Desktop/Server-Bentley/wepif.yml",
+		"/M/Maxim/Desktop/Server-Bentley/plugins/TARDIS/config.yml",
+		"/M/Maxim/Desktop/Server-Bentley/plugins/PerWorldInventory/worlds.yml",
+		"/M/Maxim/Desktop/Server-Bentley/plugins/PerWorldInventory/config.yml",
+		"/M/Maxim/Desktop/Server-Bentley/plugins/Multiverse-Core/worlds.yml",
+		"/M/Maxim/Desktop/Server-Bentley/plugins/Multiverse-Core/config.yml",
+		"/M/Maxim/Desktop/Server-Bentley/server.properties",
+		"/M/Maxim/Desktop/Server-Bentley/permissions.yml",
+		"/M/Maxim/Desktop/Server-Bentley/spigot.yml",
+		"/C/Users/Maxim/AppData/Local/Temp/7zO06295F2B/PERLSTONE-v1.1.txt",
+		"/M/Maxim/Desktop/Server-Bentley/plugins/TARDIS/condensables.yml",
+		"/M/Maxim/Desktop/Server-Bentley/plugins/TARDIS/tag.yml",
+		"/M/Maxim/Desktop/Server-Bentley/plugins/TARDIS/kits.yml",
+		"/M/Maxim/Desktop/Server-Bentley/plugins/TARDIS/custom_consoles.yml",
+		"/M/Maxim/Desktop/Server-Bentley/plugins/TARDIS/quotes.txt",
+		"/M/Maxim/Desktop/Server-Bentley/plugins/TARDIS/achievements.yml",
+		"/M/Maxim/Desktop/Server-Bentley/plugins/TARDIS/blocks.yml",
+		"/M/Maxim/Desktop/Server-Bentley/plugins/Essentials/config.yml",
+		"/M/Maxim/Desktop/Server-Bentley/plugins/TARDIS/artron.yml",
+		"/M/Maxim/Desktop/Server-Bentley/plugins/PermissionsEx/config.yml"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"canvas",
+			"});",
+			"PORT",
+			"serialport",
+			"});",
+			"foo",
+			"rate",
+			"gyro",
+			"tilt",
+			"crossbow",
+			"drawer",
+			"connecting to",
+			"controller",
+			"drawer controller\\",
+			"drawer controller",
+			"controller",
+			"leiser",
+			"request",
+			"leiser",
+			"getAvailableSlot",
+			"nextOtherSlot",
+			"nextBSlot",
+			"nextASlot",
+			"not",
+			"SMELTERY_B_SLOTS",
+			"SMELTERY_A_SLOTS",
+			"respawn",
+			"death",
+			"world",
+			"world_nether",
+			"recovery ship",
+			"world",
+			"chat",
+			"group",
+			"chat",
+			"prefix",
+			"valentina",
+			"sieuk",
+			"jebediah",
+			"valen",
+			"gracy",
+			"kerman",
+			"sieu",
+			"wapp",
+			"He",
+			"he",
+			"Ball",
+			"ball",
+			"NeuralLayer",
+			"InputLayer",
+			"this",
+			"bportaluri",
+			"print",
+			"send"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 285,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								118,
+								118
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": ".bowerrc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 30,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								30,
+								30
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "static/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 515,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								78,
+								78
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 38.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "scripts/drawingapp.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.434233705226,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 143.0
+	},
+	"pinned_build_system": "",
+	"project": "sublime.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"M:\\Maxim\\Programming\\3dgraph\\3dgraph.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 217.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

@@ -1,0 +1,24 @@
+{
+  "name": "CollabDrawing",
+  "description": "",
+  "main": "main.js",
+  "authors": [
+    "Plenglin <maximumpwnguin@gmail.com>"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "extern",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "latest",
+    "jquery": "latest",
+    "paper": "latest",
+    "socket.io-client": "latest"
+  }
+}
