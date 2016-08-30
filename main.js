@@ -2,6 +2,8 @@ var express = require('express');
 var http = require('http');
 var socketio = require('socket.io');
 
+Error.stackTraceLimit = Infinity;
+
 const colors = [
 	'red', 'black', 'blue', 'purple', 'orange', 'magenta'
 ];
@@ -34,13 +36,13 @@ serverSocket.on('connection', function(socket) {
 
 	console.log('client connected');
 
-	try {
-		clients[socket.id] = {socket: socket, color: getNewColor()}; // Add to color registry
-	} catch (e) {
-		console.log(e);
-	}
-	console.log('asdf');
+	clients[socket.id] = {socket: socket, color: getNewColor()}; // Add to color registry
 
+	console.log(colorPool);
+	console.log({
+		color: clients[socket.id].color, // Tell client assigned color
+		history: paths // Tell client history of drawing
+	});
 	socket.emit('welcome', {
 		color: clients[socket.id].color, // Tell client assigned color
 		history: paths // Tell client history of drawing
@@ -48,8 +50,9 @@ serverSocket.on('connection', function(socket) {
 
 	socket.on('disconnect', function() {
 		console.log('client disconnected');
-		colorPool.push(clients[this.id]); // Put color back in pool
+		colorPool.push(clients[this.id].color); // Put color back in pool
 		delete clients[this.id]; // Remove socket from registry
+
 	});
 
 	socket.on('pathFinished', function(path) {
@@ -64,4 +67,6 @@ serverSocket.on('connection', function(socket) {
 
 });
 
-server.listen(8080);
+server.listen(8080, function() {
+	console.log('Listening');
+});
