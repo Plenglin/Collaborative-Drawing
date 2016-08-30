@@ -38,11 +38,6 @@ serverSocket.on('connection', function(socket) {
 
 	clients[socket.id] = {socket: socket, color: getNewColor()}; // Add to color registry
 
-	console.log(colorPool);
-	console.log({
-		color: clients[socket.id].color, // Tell client assigned color
-		history: paths // Tell client history of drawing
-	});
 	socket.emit('welcome', {
 		color: clients[socket.id].color, // Tell client assigned color
 		history: paths // Tell client history of drawing
